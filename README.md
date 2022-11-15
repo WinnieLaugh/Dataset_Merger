@@ -11,6 +11,11 @@ This repository can be used for training and inferring on H&E images. As part of
 
 - [checkpoint](https://drive.google.com/file/d/1iicq1Ii-MpyUHjMQGGyhZ9g9sPcouccT/view?usp=sharing)
 
+## Webpage
+More details（e.g. data, visual results) can be found at our [project webpage](https://w-h-zhang.github.io/projects/dataset_merging/dataset_merging.html)
+
+
+
 ## Set Up Environment
 
 ```

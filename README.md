@@ -40,11 +40,25 @@ Below are the main directories in the repository:
 
 ## Training
 
+### Download Data:
+- `panNuke`: https://jgamper.github.io/PanNukeDataset/
+- `CoNSeP`: https://warwick.ac.uk/fac/cross_fac/tia/data/hovernet/
+- `NuCLS`: https://sites.google.com/view/nucls/home
+- `MoNuSAC`: https://monusac-2020.grand-challenge.org/Home/
+
+
+### Convert Data to the same format
+```
+  python dataset/preparation/panNuke.py
+  python dataset/preparation/CoNSeP.py
+  python dataset/preparation/NuCLS.py
+  python dataset/preparation/MoNuSAC.py
+```
+
+
 ### Data Format
 For training, the ground truth images, masks, and nucleus types are stored separately in `png`, `npy`, and `npy` files in the data folder.
 
-**Note** The re-organized dataset is too large to be uploaded as supplementary materials.
-We will release the dataset soon publicly.
 
 ### Usage and Options
  
